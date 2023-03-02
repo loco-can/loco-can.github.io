@@ -1,6 +1,6 @@
 # The Project
 
-![Loco CAN](Loco-CAN-Logo.png)
+![Loco CAN >](Loco-CAN-Logo.png)
 
 <img
   src="Loco-CAN-Logo.png"
