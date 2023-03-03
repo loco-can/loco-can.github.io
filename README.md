@@ -19,3 +19,5 @@ The system is still under developement. The CAN-specification is defined but can
 [Hardware repository](https://github.com/loco-can/loco-can-hardware)
 
 [Software repository](https://github.com/loco-can/loco-can-software)
+
+[Modules](modules.md)
