@@ -3,10 +3,9 @@
 The CAN messages are identified by an identifier. Loco-CAN uses its own ID-system.
 
 # Operation Messages
-Message Mask
-CAN_ID_MASK 0x770
 
 ## High priority messages
+
 |Name|Value|
 |----|-----|
 |CAN_ID_CURRENT|0x100|
@@ -15,6 +14,7 @@ CAN_ID_MASK 0x770
 |CAN_ID_LIGHT_CURRENT|0x130|
 
 ## Mid priority messages
+
 |Name|Value|
 |----|-----|
 |CAN_ID_SPEED|0x200|
@@ -23,6 +23,7 @@ CAN_ID_MASK 0x770
 |CAN_ID_TACHO|0x230|
 
 ## Low priority messages
+
 |Name|Value|
 |----|-----|
 |CAN_ID_VOLTAGE|0x300|
@@ -32,6 +33,7 @@ CAN_ID_MASK 0x770
 |CAN_ID_BATT_2_VOLTAGE|0x322|
 
 ## Command messages
+
 |Name|Value|
 |----|-----|
 |CAN_ID_DRIVE|0x400|
@@ -39,6 +41,7 @@ CAN_ID_MASK 0x770
 |CAN_ID_SWITCH|0x420|
 
 ## Status messages
+
 |Name|Value|
 |----|-----|
 |CAN_ID_STATUS|0x500|
@@ -75,18 +78,18 @@ The setup command is used to send and receive module setup data.
            bytes 3-7 	=> data
 
 ## Masks
-* CAN_REQUEST_MASK 0x7FF
-* CAN_ID_REQUEST 0x7FF
 
-* CAN_REPLY_MASK 0x7FF
-*  CAN_ID_REPLY 0x780
+|Name|Value|
+|----|-----|
+|CAN_ID_MASK|0x770|
+|CAN_REQUEST_MASK|0x7FF|
+|CAN_ID_REQUEST|0x7FF|
+|CAN_REPLY_MASK|0x7FF|
+|CAN_ID_REPLY|0x780|
+|CAN_SETUP_MASK|0x700|
+|CAN_ID_SETUP|0x700|
 
-* CAN_SETUP_MASK 0x700
-* CAN_ID_SETUP 0x700
-
-
-* CAN_NAME_MAX_SIZE 5
-* CAN_VALUE_MAX_SIZE 6
-
-Footer
-© 2023 GitHub, Inc
+|Name|Value|
+|----|-----|
+|CAN_NAME_MAX_SIZE|5|
+|CAN_VALUE_MAX_SIZE|6|
