@@ -17,3 +17,5 @@ The system is not only intended for networking within a traction vehicle, but ca
 The system is still under developement. The CAN-specification is defined but can be extended. Board designs are available in different versions, due to the process of evolvement. Besides bugs in the board design details like the pinout of the program interface differ between the versions.
 
 ## [Modules](modules.md)
+
+## [Protocol](protocol.md)
