@@ -1,9 +1,16 @@
 # The CAN protocol
 
-The CAN messages are identified by an identifier. Loco-CAN uses its own ID-system. Every module can send messages and register to ids that are interesting. There are some spezial messages, that have a spezial impact on the overall function. Primary it is the communication between controllers and the motor module.
+The CAN messages are identified by identifier. Loco-CAN uses its own ID-system. Every module can send messages and register to ids that are interesting. There are some spezial messages, that have a spezial impact on the overall function. Primary it is the communication between controllers and the motor module.
 
+Loco-CAN uses the extended 29 bit identifiers. The 11 bit standard id contains the message type, 16 bits of the extended id holds an unique hardware id of the module. This uuid is used for the setup of module parameters.
+
+## Heartbeat
+Heartbeat messages are used to identify the presents of modules. There are different heartbeats:
+
+* Module heartbeat: Each module sends an identification message contain
+* Controller heartbeat
 ## Heartbeat and the Controller priority
-There is no limitations of controllers connected to the bus, but only one can be active. When the main switch off a controller is set to on, it checks, if another controller is sending a heartbeat. In this case an error is displayed and the controller stays inactive.
+There are no limitations of controllers connected to the bus, but only one can be active. When the main switch of a controller is set to on, it checks, if another controller is sending a heartbeat. In this case an error is displayed and the controller stays inactive.
 To ensure a safe operation some functions can be configured to react on a heartbeat message. The heartbeat is sent from the active controller. In the system only one controller can be activated for a locomotive. A missing heartbeat leads to an emergency stop.
 
 ## Status Messages
