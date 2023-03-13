@@ -61,12 +61,12 @@ A status message is sent by each locomotive.
 |CAN_ID_STATUS|0x500|
 
 ## Heardbeat values
-The heartbeat is sent from the active controller and used to monitor the connection between controller and motor modules. The train end latern signals are registered in the controller when starting to drive. A change in the latern signal list while driving leads to a emergency stop (switch off the heartbeat signal)
+The drive heartbeat is sent from the active controller and used to monitor the connection between controller and motor modules. The train end latern signals are registered in the controller when starting to drive. A change in the latern signal list while driving leads to a emergency stop (switch off the heartbeat signal)
 
 |Name|Value|
 |----|-----|
-|CAN_ID_HEARTBEAT|0x600|
-|CAN_ID_TRAINEND|0x610|
+|CAN_ID_DRIVE_HEARTBEAT|0x010|
+|CAN_ID_TRAINEND_HEARTBEAT|0x020|
 
 sent from train end laterns
 
