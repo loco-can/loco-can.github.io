@@ -7,3 +7,11 @@ Durch die Flexibilität des CAN-Busses können zusätzliche Module einfach anges
 Das System ist nicht nur für die Vernetzung innerhalb eines Triebfahrzeugs gedacht, sondern kann auch über ein vierpoliges Kabel durch den Zug geführt werden. So können nicht nur Steuerpulte an jeder beliebigen Stelle im Zug angeschlossen werden, sondern beispielsweise auch Lichter in Waggons bedient werden.
 
 Das System befindet sich noch in der Entwicklung. Die CAN-Spezifikation ist definiert, kann aber noch erweitert werden. Die Platinen sind in verschiedenen Versionen verfügbar, da sie sich in der Entwicklung befinden. Neben Fehlern im Board-Design unterscheiden sich Details wie die Pinbelegung der Programmschnittstelle zwischen den Versionen.
+
+## Beispielaufbau
+
+* [Deutsches PDF](Loco-CAN Zusammenstellung.pdf)
+
+## [Module](de.modules.md)
+
+## [Protokoll](de.protocol.md)
