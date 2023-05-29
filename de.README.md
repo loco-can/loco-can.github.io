@@ -22,7 +22,7 @@ Das System befindet sich noch in der Entwicklung. Die CAN-Spezifikation ist defi
 
 ## Beispielaufbau
 
-* [Deutsches PDF](Loco-CAN Zusammenstellung.pdf)
+* [Zusammenstellung PDF](Loco-CAN Zusammenstellung.pdf)
 
 ## [Module](de.modules.md)
 
