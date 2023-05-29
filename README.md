@@ -22,8 +22,7 @@ The system is still under developement. The CAN-specification is defined but can
 
 ## Example application
 
-* [English PDF](Loco-CAN Assembly.pdf)
-* [Deutsches PDF](Loco-CAN Zusammenstellung.pdf)
+* [Example PDF](Loco-CAN Assembly.pdf)
 
 ## [Modules](modules.md)
 
