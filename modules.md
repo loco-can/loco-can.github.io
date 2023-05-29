@@ -1,6 +1,8 @@
 # Modules
 
-The great strength of Loco-CAN lies in its modularity. Specialised modules are available for different tasks, which only need to be connected to the four-pole bus cable.
+[Overview](README.md)
+
+The great strength f Loco-CAN lies in its modularity. Specialised modules are available for different tasks, which only need to be connected to the four-pole bus cable.
 
 ## Universal
 
