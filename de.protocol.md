@@ -1,5 +1,7 @@
 # Das CAN-Protokoll
 
+[Übersicht](de.README.md)
+
 Die CAN-Nachrichten werden durch Identifier gekennzeichnet. Loco-CAN verwendet ein eigenes ID-System. Jedes Modul kann Nachrichten senden und sich auf die IDs registrieren, die für es interessant sind. Es gibt einige spezielle Nachrichten, die einen besonderen Einfluss auf die Gesamtfunktion haben. In erster Linie handelt es sich dabei um die Kommunikation zwischen Fahrregler und dem Motormodul.
 
 Loco-CAN verwendet die erweiterten 29-Bit-Identifier. Der 11-Bit-Standard-Identifier enthält den Nachrichtentyp, 16 Bit des erweiterten Identifiers enthalten eine eindeutige Hardware-ID des Moduls. Diese uuid wird für die Einstellung der Modulparameter verwendet.
