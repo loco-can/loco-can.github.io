@@ -78,15 +78,15 @@ Der Setup-Befehl wird zum Senden und Empfangen von Modul-Setup-Daten verwendet.
 
 * 0x7FF fordert Setup-Informationen vom Modul an (0 Byte Nachrichtenlänge)
 
-        die Kennung uuid wird ignoriert und die Informationen werden auf beliebige Weise gesendet
+die Kennung uuid wird ignoriert und die Informationen werden auf beliebige Weise gesendet
 
 * 0x7nn liefert Infopakete (nn = Daten-ID)
 
-        + 8 Bytes Textbeschreibung
++ 8 Bytes Textbeschreibung
 
-        Hinzufügen der eigenen uuid im erweiterten Bezeichner
+Hinzufügen der eigenen uuid im erweiterten Bezeichner
 
-        damit kein anderes Modul es als Schreibbefehl interpretieren kann
+damit kein anderes Modul es als Schreibbefehl interpretieren kann
 
 * Schreibbefehle werden mit der Ziel-Uuid in den ersten beiden Bytes gesendet
 
@@ -94,40 +94,29 @@ Der Setup-Befehl wird zum Senden und Empfangen von Modul-Setup-Daten verwendet.
 
 0x6nn Daten setzen
 
-        nn => Daten-ID + max. 8 Bytes Daten
+nn => Daten-ID + max. 8 Bytes Daten
 
 * Nachrichtenbytes 0, 1 => UUID des Moduls
 
-           Byte 2 => Nachrichten-ID
+Byte 2 => Nachrichten-ID
 
 * 0xFF = Modulname
 
-           Bytes 3-7 => Daten
+Bytes 3-7 => Daten
 
 ## Masken
 
 |Name|Value|
-
 |----|-----|
-
 |CAN_ID_MASK|0x770|
-
 |CAN_REQUEST_MASK|0x7FF|
-
 |CAN_ID_REQUEST|0x7FF|
-
 |CAN_REPLY_MASK|0x7FF|
-
 |CAN_ID_REPLY|0x780|
-
 |CAN_SETUP_MASK|0x700|
-
 |CAN_ID_SETUP|0x700|
 
 |Name|Wert|
-
 |----|-----|
-
 |CAN_NAME_MAX_SIZE|5|
-
 |CAN_WERT_MAX_GRÖSSE|6|
