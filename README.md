@@ -5,6 +5,8 @@
   alt="Loco-CAN"
   title="Loco-CAN - A bus for a train"
   style="float: left; margin-right: 10px; max-height: 150px">
+  
+[Deutsch](de.README.md)
 
 The LOCO-CAN project is an electronic control system for the large passenger-carrying garden railway. The communication between the devices is based on the CAN bus, which is used in the automotive industry and in automation. The serial signal transmission is very robust and supports multiple masters and multiple slaves.
 
