@@ -1,12 +1,14 @@
 # Das Projekt
 
+[English](README.md)
+
 <img
   src="Loco-CAN-Logo.png"
   alt="Loco-CAN"
   title="Loco-CAN - Ein Bis für die Bahn"
   style="float: left; margin-right: 10px; max-height: 150px">
   
-[English](README.md)
+
 
 Bei dem Projekt LOCO-CAN handelt es sich um ein elektronisches Steuerungssystem für die große Gartenbahn zur Personenbeförderung. Die Kommunikation zwischen den Geräten basiert auf dem CAN-Bus, der in der Automobilindustrie und in der Automatisierung eingesetzt wird. Die serielle Signalübertragung ist sehr robust und unterstützt mehrere Master und mehrere Slaves.
 
