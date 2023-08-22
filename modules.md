@@ -1,6 +1,8 @@
 # Modules
 
-The great strength of Loco-CAN lies in its modularity. Specialised modules are available for different tasks, which only need to be connected to the four-pole bus cable.
+[Overview](README.md)
+
+The great strength f Loco-CAN lies in its modularity. Specialised modules are available for different tasks, which only need to be connected to the four-pole bus cable.
 
 ## Universal
 The universal module has the same structure on the CAN bus side as the standard modules. However, there are no special hardware drivers but the IOs are led out directly. The universal module and the universal WiFi module are pin-compatible.
